@@ -1,0 +1,25 @@
+{
+  "name": "protractor-template",
+  "version": "1.0.0",
+  "description": "Protractor Template for test automation projects",
+  "main": "conf.js",
+  "dependencies": {
+    "protractor": "^4.0.14",
+    "chromedriver": "2.27.1",
+    "selenium-server-standalone-jar": "3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "webdriver-start": "./node_modules/protractor/bin/webdriver-manager update && ./node_modules/protractor/bin/webdriver-manager start",
+    "test": "protractor conf.js"
+  },
+  "keywords": [
+    "protractor",
+    "test",
+    "automation",
+    "mateuszsanko",
+    "mattsanko"
+  ],
+  "author": "Mateusz Sanko",
+  "license": "ISC"
+}

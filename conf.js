@@ -7,6 +7,10 @@ exports.config = {
     'browserName': 'chrome'
   },
 
+  seleniumServerJar: "./node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-3.0.1.jar",
+  chromeDriver: "./node_modules/chromedriver/lib/chromedriver/chromedriver",
+
+
   // Framework to use. Jasmine is recommended.
   framework: 'jasmine',
 
